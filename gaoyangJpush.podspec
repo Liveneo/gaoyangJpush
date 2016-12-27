@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "gaoyangJpush"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ceshi gaoyangJpush cocoapods "
 
   # This description is used to generate tags and improve search results.
@@ -73,7 +73,7 @@ ios-cocoapods方式集成极光-liveneo-gaoyang02gaoyangJpush
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com.gaoyang5/gaoyangJpush.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/gaoyang5/gaoyangJpush.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
