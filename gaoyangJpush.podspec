@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "gaoyangJpush"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ceshi gaoyangJpush cocoapods "
 
   # This description is used to generate tags and improve search results.
@@ -58,7 +58,7 @@ ios-cocoapods方式集成极光-liveneo-gaoyang02gaoyangJpush
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
  #s.ios.deployment_target = "8.0"
@@ -84,7 +84,7 @@ ios-cocoapods方式集成极光-liveneo-gaoyang02gaoyangJpush
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "gaoyangJpush/*.{h,m}"
+  s.source_files  = "JpushManager.h","JpushManager.m"
   # s.source_files =  "JPUSHService.h"
   # s.vendored_libraries = "jcore-ios-1.0.0.a","jpush-ios-3.0.0.a"
  # s.exclude_files = "Classes/Exclude"
