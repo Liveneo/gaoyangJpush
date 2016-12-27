@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "gaoyangJpush"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ceshi gaoyangJpush cocoapods "
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ ios-cocoapods方式集成极光-liveneo-gaoyang02gaoyangJpush
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JPush", "~> 3.0.0"
+  s.dependency "JPush", "~> 3.0.0"
 
 end
